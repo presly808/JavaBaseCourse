@@ -1,0 +1,3 @@
+hasCommission = true
+areDeadlinesMet = true
+evenOrEqual = true

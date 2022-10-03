@@ -1,0 +1,23 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 7
+    length: 5
+    placeholder_text: /* fill */
+  - offset: 13
+    length: 4
+    placeholder_text: /* write class name, should be the same as file name */
+  - offset: 30
+    length: 6
+    placeholder_text: /* fill */
+  - offset: 70
+    length: 40
+    placeholder_text: /* print to console "My first program!" */
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false

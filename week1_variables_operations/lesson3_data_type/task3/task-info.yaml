@@ -1,0 +1,21 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 117
+    length: 6
+    placeholder_text: choose proper type
+  - offset: 147
+    length: 6
+    placeholder_text: write type
+  - offset: 199
+    length: 3
+    placeholder_text: write proper type
+  - offset: 332
+    length: 2
+    placeholder_text: find proper int value to add in order to get `K` symbol

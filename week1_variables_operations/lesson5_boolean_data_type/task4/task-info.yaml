@@ -1,0 +1,23 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 97
+    length: 41
+    placeholder_text: /* create scanner in order to read data */
+  - offset: 146
+    length: 333
+    placeholder_text: /* Read input data from scanner. Order is important */
+  - offset: 487
+    length: 348
+    placeholder_text: /* print input data to console */
+  - offset: 843
+    length: 314
+    placeholder_text: /* implement logic and print result to console */
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false

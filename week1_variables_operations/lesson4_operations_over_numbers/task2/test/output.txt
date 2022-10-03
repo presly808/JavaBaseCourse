@@ -1,0 +1,4 @@
+Avg = 65
+83845
+lastDigitOfNumber = 4
+End of task

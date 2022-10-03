@@ -1,0 +1,1 @@
+b=0, s=-30000, i=89, l=223, f=90.0, d=89.89, bool=true, symbol=X, symbolByCode=0

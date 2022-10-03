@@ -1,0 +1,2 @@
+canWePutPictureOnWall = false
+isNumberEven = false

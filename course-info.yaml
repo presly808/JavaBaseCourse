@@ -1,0 +1,20 @@
+type: marketplace
+title: JavaBaseCourse
+language: English
+summary: |-
+  This is an introductory Java course.
+  - The course will be most beneficial for beginner-level Java learners.
+  - The course covers core Java features.
+  - It contains hands-on examples of Java code implementation and exercises to practice new skills.
+  - The course is based on the author's personal experience in Java development.
+programming_language: Java
+content:
+- week1_variables_operations
+- week2_conditional_flows
+- week3_arrays_loops
+- week4_arrays_loops
+- week5_functions
+- week6_nested_arrays_matrix
+- week7_structures_oop_introduction
+- week8_basic_recursion
+- testing

@@ -1,0 +1,8 @@
+type: theory
+files:
+- name: src/Main.java
+  visible: true
+- name: primitive_types_hierarchy.png
+  visible: true
+- name: prmitivies_table.png
+  visible: true

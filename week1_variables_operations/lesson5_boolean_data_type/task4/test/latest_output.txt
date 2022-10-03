@@ -1,0 +1,2 @@
+freeHoursPerDay = 3, selfDiscipline = true, timeForStudyingInMonth = 8, moneyForStudying = 500, hoursNeededPerDay = 2, monthsNeeded = 6, lessonsPrice = 2000
+You can change your occupation = true

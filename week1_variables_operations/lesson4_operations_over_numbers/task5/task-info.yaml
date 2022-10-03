@@ -1,0 +1,38 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 115
+    length: 22
+    placeholder_text: /* create scanner which works with System.in */
+  - offset: 319
+    length: 3
+    placeholder_text: /* write proper type */
+  - offset: 361
+    length: 3
+    placeholder_text: /* write proper type */
+  - offset: 403
+    length: 3
+    placeholder_text: /* write proper type */
+  - offset: 448
+    length: 3
+    placeholder_text: /* TODO */
+  - offset: 525
+    length: 58
+    placeholder_text: /* write logic here*/
+  - offset: 711
+    length: 3
+    placeholder_text: /* write proper type here */
+  - offset: 749
+    length: 7
+    placeholder_text: /* choose proper type */
+  - offset: 772
+    length: 17
+    placeholder_text: /* write logic here */
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false

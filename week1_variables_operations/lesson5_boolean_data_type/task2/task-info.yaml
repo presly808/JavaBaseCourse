@@ -1,0 +1,26 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 491
+    length: 1
+    placeholder_text: /* write comparison operation */
+  - offset: 512
+    length: 2
+    placeholder_text: /* write boolean operation */
+  - offset: 959
+    length: 1
+    placeholder_text: /* write comparison operation */
+  - offset: 983
+    length: 2
+    placeholder_text: /* write boolean operation */
+  - offset: 1279
+    length: 62
+    placeholder_text: /* write solution */
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false
