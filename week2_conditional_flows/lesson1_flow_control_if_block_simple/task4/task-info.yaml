@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 166
+    length: 346
+    placeholder_text: /* implement logic with if blocks */
+- name: test/Tests.java
+  visible: false

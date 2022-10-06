@@ -1,5 +1,7 @@
 # Project exclude paths
+/.idea/
 /.gradle/
+build/
 /testing/lesson1/task1/build/
 /testing/lesson1/task2/build/
 /week1_variables_operations/lesson1_sout/task1/build/

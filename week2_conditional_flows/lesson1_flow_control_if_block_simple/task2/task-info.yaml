@@ -1,0 +1,18 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 224
+    length: 26
+    placeholder_text: /* check if fristNumber is less than secondNumber */
+  - offset: 321
+    length: 95
+    placeholder_text: /* Print 'FirstNumber is equel` if firstNumber equals to secondNumber
+      */
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false

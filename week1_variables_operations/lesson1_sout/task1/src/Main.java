@@ -1,3 +1,5 @@
+import com.artcode.UtilsMethods;
+
 // class declaration, the first block in the program.
 // It has its boundaries presented as brackets {}
 public class Main {

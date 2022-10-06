@@ -1,4 +1,4 @@
 content:
-- lesson1_one_level_flows
-- lesson2_linked_flows
+- lesson1_flow_control_if_block_simple
+- lesson2_flow_control_if_block_advanced
 - lesson3_nested_flows

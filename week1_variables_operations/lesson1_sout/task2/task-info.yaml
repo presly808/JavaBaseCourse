@@ -8,7 +8,7 @@ files:
     placeholder_text: /* fill */
   - offset: 13
     length: 4
-    placeholder_text: /* write class name, should be the same as file name */
+    placeholder_text: /* write a class name, should be the same as a file name */
   - offset: 30
     length: 6
     placeholder_text: /* fill */
