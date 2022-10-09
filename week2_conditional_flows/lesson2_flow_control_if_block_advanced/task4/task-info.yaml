@@ -1,0 +1,14 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 412
+    length: 3279
+    placeholder_text: /* add logic here */
+- name: test/Tests.java
+  visible: false
+- name: img_1.png
+  visible: true
+- name: img.png
+  visible: true

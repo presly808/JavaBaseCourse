@@ -20,7 +20,7 @@ files:
     placeholder_text: fill type based on value
   - offset: 198
     length: 1
-    placeholder_text: copy from f
+    placeholder_text: copy value from f
   - offset: 223
     length: 4
     placeholder_text: '"True"'
@@ -29,7 +29,7 @@ files:
     placeholder_text: String
   - offset: 281
     length: 2
-    placeholder_text: find code wich stands for `0` char
+    placeholder_text: find code which stands for `0` char
 - name: test/output.txt
   visible: false
 - name: test/input.txt

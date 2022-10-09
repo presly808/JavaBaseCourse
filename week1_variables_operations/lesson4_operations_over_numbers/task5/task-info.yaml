@@ -17,7 +17,7 @@ files:
     placeholder_text: /* write proper type */
   - offset: 448
     length: 3
-    placeholder_text: /* TODO */
+    placeholder_text: /* write proper type */
   - offset: 525
     length: 58
     placeholder_text: /* write logic here*/

@@ -1,9 +1,9 @@
-import com.artcode.InputOutputRedirectionParentTest;
+import com.artcode.OutputRedirectionParentTest;
 import org.junit.*;
 
 import java.io.ByteArrayInputStream;
 
-public class Tests extends InputOutputRedirectionParentTest {
+public class Tests extends OutputRedirectionParentTest {
 
     @Test
     public void testWhenSpeedIncorrect() {

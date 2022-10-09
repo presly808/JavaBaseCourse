@@ -2,6 +2,10 @@ type: output
 files:
 - name: src/Main.java
   visible: true
+  placeholders:
+  - offset: 70
+    length: 266
+    placeholder_text: /* implement logic */
 - name: test/output.txt
   visible: false
 - name: test/input.txt

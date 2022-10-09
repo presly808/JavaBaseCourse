@@ -19,3 +19,5 @@ files:
   - offset: 332
     length: 2
     placeholder_text: find proper int value to add in order to get `K` symbol
+- name: test/latest_output.txt
+  visible: false

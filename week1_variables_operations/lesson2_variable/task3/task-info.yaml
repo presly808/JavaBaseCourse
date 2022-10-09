@@ -2,6 +2,13 @@ type: output
 files:
 - name: src/Main.java
   visible: true
+  placeholders:
+  - offset: 282
+    length: 17
+    placeholder_text: calculate total price
+  - offset: 325
+    length: 207
+    placeholder_text: construct message
 - name: test/output.txt
   visible: false
 - name: test/input.txt

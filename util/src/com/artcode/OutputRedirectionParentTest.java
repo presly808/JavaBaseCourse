@@ -3,11 +3,10 @@ package com.artcode;
 import org.junit.After;
 import org.junit.BeforeClass;
 
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-public class InputOutputRedirectionParentTest {
+public class OutputRedirectionParentTest {
 
     protected static ByteArrayOutputStream baos;
 

@@ -5,7 +5,6 @@ There are helpful tips to be more effective during the learning process
 * Program is a sequence of instructions that are being executed each by each
 * Frequency is fundamental while learning. Frequent but small sessions have a significant impact on your remembering. Don't underestimate https://en.wikipedia.org/wiki/Forgetting_curve
 * Make everything visual
-  * Here is a great tool where you can paste your code and see how it works step by step
 * When you're learning any topic, please use the following guide
   * What problem is going to be solved?
   * How can we present a new topic visually in schemes, diagrams, and drawings?

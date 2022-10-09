@@ -1,0 +1,22 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 93
+    length: 5
+    placeholder_text: select proper value
+  - offset: 119
+    length: 2
+    placeholder_text: select proper value
+  - offset: 151
+    length: 2
+    placeholder_text: select proper value
+  - offset: 175
+    length: 3
+    placeholder_text: select proper value
+  - offset: 206
+    length: 3
+    placeholder_text: select proper value
+- name: test/Tests.java
+  visible: false

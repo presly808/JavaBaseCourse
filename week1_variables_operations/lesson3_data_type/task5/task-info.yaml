@@ -8,10 +8,10 @@ files:
     placeholder_text: cast to proper type
   - offset: 165
     length: 3
-    placeholder_text: write a valid type
+    placeholder_text: write valid type
   - offset: 414
     length: 5
-    placeholder_text: put 'true' or 'false'
+    placeholder_text: true if populationOfEarth equals to populationOfEarthInInt
 - name: test/output.txt
   visible: false
 - name: test/input.txt

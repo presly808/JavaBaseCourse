@@ -1,1 +1,1 @@
-b=0, s=-30000, i=89, l=223, f=90.0, d=89.89, bool=true, symbol=X, symbolByCode=0
+b=-127, s=32676, i=32676, l=123123123123, f=90.0, d=90.0, bool=true, symbol=@, symbolByCode=0

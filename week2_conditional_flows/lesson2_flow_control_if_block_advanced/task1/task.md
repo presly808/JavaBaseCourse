@@ -4,7 +4,7 @@ Flowcharts are not only ways to present a code with visual components.
 
 We also can run a program step by step seeing:
 * how a program is being executed
-* what is happening with tge data on each step
+* what is happening with the data on each step
 
 I am going to introduce a web tool that can visualize your code.
 https://cscircles.cemc.uwaterloo.ca/java_visualize/

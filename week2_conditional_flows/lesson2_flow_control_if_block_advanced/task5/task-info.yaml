@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 101
+    length: 1611
+    placeholder_text: /* Implement the task*/
+- name: test/Tests.java
+  visible: false

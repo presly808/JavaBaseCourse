@@ -43,7 +43,7 @@ int productPrice = 760;
 int countOfProducts = 4;
 
 int totalPrice = productPrice * countOfProducts;
-int totalPriceWithDiscount = (totalPrice) - (totalPrice * discountPercent);
+double totalPriceWithDiscount = (totalPrice) - (totalPrice * discountPercent);
 
 System.out.println(totalPriceWithDiscount);
 ```

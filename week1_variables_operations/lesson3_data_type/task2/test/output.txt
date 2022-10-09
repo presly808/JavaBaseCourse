@@ -1,0 +1,1 @@
+b=-127, s=32676, i=32676, l=123123123123, f=90.0, d=90.0, bool=true, symbol=@, symbolByCode=0

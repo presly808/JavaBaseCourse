@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 270
     length: 18
-    placeholder_text: calculate avg of three number
+    placeholder_text: calculate average of three number
   - offset: 654
     length: 139
     placeholder_text: calculate total price
@@ -14,7 +14,7 @@ files:
     placeholder_text: calculate price with discount and cast to int
   - offset: 1165
     length: 2
-    placeholder_text: select proper division to get last digit of number
+    placeholder_text: /* select proper division to get last digit of number */
   - offset: 1313
     length: 34
     placeholder_text: /* print "End of task" */

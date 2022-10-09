@@ -3,7 +3,7 @@ In this lesson, we are going to see:
 * How to convert from `String` to `int/long/double/boolean`
 
 **Task1** :
-How many people in 13% of the population (will be declared in the beginning)\
+How many people in 2% of the population (will be declared in the beginning)\
 Use (Percent Proportion Formula)
 
 **Task2** :
