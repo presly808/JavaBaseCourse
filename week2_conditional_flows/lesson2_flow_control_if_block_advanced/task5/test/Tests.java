@@ -15,8 +15,10 @@ public class Tests extends OutputRedirectionParentTest {
   public static Collection<Object[]> data() {
     return Arrays.asList(new Object[][] {
             {"Bogdan", 78, 85, 5000, 2000, "You will reach the target in 10 days"},
-            {"Oleg", 78, 85, 2000, 3000, "You are loosing weight"},
+            // In this case, a person wants to gain weight, but his/her food ratio is about to lose weight
+            {"Oleg", 78, 85, 2000, 3000, "You are losing weight"},
             {"Olesia", 60, 50, 1500, 2000, "You will reach the target in 51 days"},
+            // In this case, a person wants to lose weight, but his/her ration is about to gain weight
             {"Ivanka", 55, 45, 3000, 1000, "You are gaining weight"},
     });
   }

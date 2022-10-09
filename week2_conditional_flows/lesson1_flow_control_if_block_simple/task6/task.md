@@ -1,6 +1,5 @@
-In the following lessons we study how to write code from **Flow Charts**
+In the following lessons, we study how to write code from **Flow Charts**
 
-Implement code from flowchart: 
+Implement code from the flowchart:
 
 ![img.png](img.png)
-

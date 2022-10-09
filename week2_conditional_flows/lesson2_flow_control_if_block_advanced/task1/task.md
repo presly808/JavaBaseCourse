@@ -1,8 +1,8 @@
 I do believe in Visualization. The more you visualize, the more you understand.
 
-Flowcharts are not only ways to present a code with visual components.
+Flowcharts are not the only ways to present a code with visual components.
 
-We also can run a program step by step seeing:
+We also can run a program step by step, seeing:
 * how a program is being executed
 * what is happening with the data on each step
 
@@ -10,10 +10,10 @@ I am going to introduce a web tool that can visualize your code.
 https://cscircles.cemc.uwaterloo.ca/java_visualize/
 If this site stops working, please let me know. I will update the description and the link.\
 
-How to copy/paste code to the tool and understand the flow 
+How to copy/paste code to the tool and understand the flow
 
-Steps: 
-* Copy the code 
+Steps:
+* Copy the code
 * Open the link https://cscircles.cemc.uwaterloo.ca/java_visualize/
 * Paste the code
 * Press `Visualize Execution` button
@@ -41,7 +41,7 @@ public class Main {
 }
 ```
 
-Task1 with Scanner and input: 
+Task1 with Scanner and input:
 
 ```java
 import java.util.Scanner;
@@ -79,6 +79,6 @@ public class Main {
 }
 ```
 
-From moment on, **flowcharts** and **code visualizer** are your best friends in this learning adventure.
+From then on, **flowcharts** and **code visualizer** are your best friends in this learning adventure.
 
-In the future, we learn how to use an embedded debugger in your Intellij IDE. (More advanced approach)
+In the future, we will learn how to use an embedded debugger in your Intellij IDE. (More advanced approach)

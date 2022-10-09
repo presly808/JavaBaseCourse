@@ -1,10 +1,10 @@
 Data Validation Topic:
 
-Almost each tasks we read data from Scanner, it will not be changed in the real-words projects.
+For almost every task, we read data from Scanner, it will not be changed in real-words projects.
 
 Your programs will accept various data from different sources.
 
-Unfortunately, the input data are not always correct, for an example:
+Unfortunately, the input data are not always correct. For example:
 
 ```
 int age = -23;
@@ -13,12 +13,12 @@ String name = "xxxxxxxxx";
 int heartRate = 0;
 ```
 
-As it is seen on above, those data are not valid.
+As is seen above, those data are not valid.
 
-Hence, in most cases there is no sense to calculate or continue the logic
-once we see that data are not applicable for further logic.
+Hence, in most cases, there is no sense in calculating or continuing the logic
+once we see that data do not apply to furher logic.
 
-There is a way to stop a program in any moment of the execution. Keyword `return` will help.
+There is a way to stop a program at any moment of execution. Keyword `return` will help.
 
 Example:
 
@@ -28,7 +28,7 @@ class Example {
         int age = -1;
 
         if (age < 0) {
-            // return will break main method. As main method(function) is only method in our execution. 
+            // return will break the main method. As main method(function) is the only method in our execution. 
             // It terminates the application  
             return;
         }
@@ -39,11 +39,11 @@ class Example {
 }
 ```
 
-FlowChart: 
+FlowChart:
 ![img.png](img.png)
 
 
-Please, copy/paste the code to visualizer and see how it works.
+Please, copy/paste the code to the visualizer and see how it works.
 
 On the other hand, we can simplify our code,
 make it beautiful if we use `return` to terminate the application once we notice invalid data
@@ -110,4 +110,4 @@ Flowchart:
 Doesn't it look better?
 
 ***
-Please visualize all the examples
+Please visualize all the examples.

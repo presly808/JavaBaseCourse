@@ -1,7 +1,7 @@
-It's time to extend out knowledge about `if` control flows. Namely, nested blocks.
+It's time to extend our knowledge about `if` control flows. Namely, nested blocks.
 When `if block` can contain other `if blocks` inside.
 
-Example: 
+Example:
 
 ```
 if (...) {
@@ -27,7 +27,7 @@ if (...) {
 } 
 ```
 
-There is no limitation on number of nested blocks...
+There is no limitation on the number of nested blocks
 
 This approach gives us flexibility and unlimited abilities while implementing any algorithm.
 ***
@@ -59,7 +59,7 @@ FlowChart:
 
 ![img.png](img.png)
 
-Please copy the code to visualizer, play with (set different values) `speed` and `isInCity` to get into each block...
+Please copy the code to the visualizer, and play with (set different values) `speed` and `isInCity` to get into each block...
 
 Ensure you understand how nested blocks work.
 *** 
@@ -97,5 +97,4 @@ if (isInCity) {
 FlowChart:
 ![img_1.png](img_1.png)
 
-Please copy the code and visualize as you did with the previous example.
-
+Please copy the code and visualize it as you did with the previous example.

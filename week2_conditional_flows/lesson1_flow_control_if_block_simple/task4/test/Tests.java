@@ -50,6 +50,6 @@ public class Tests extends OutputRedirectionParentTest {
 
         String actual = baos.toString();
 
-        Assert.assertEquals("You are very close to get a ticket\n", actual);
+        Assert.assertEquals("You are very close to getting a ticket\n", actual);
     }
 }

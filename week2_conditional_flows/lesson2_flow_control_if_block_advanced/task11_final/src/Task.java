@@ -29,7 +29,6 @@ public class Task {
                 priceWithoutDiscount = 300;
                 if (weekDay == 2 || weekDay == 3 || weekDay == 6) {
                     discountPercent += 0.10;
-                    System.out.println("");
                 }
             } else if (destination.equals("London")) {
                 priceWithoutDiscount = 300;
@@ -85,6 +84,5 @@ public class Task {
         int finalPrice = (int) (priceWithoutDiscount - (priceWithoutDiscount * discountMax));
 
         System.out.println(pattern + finalPrice);
-
     }
 }

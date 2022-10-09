@@ -23,7 +23,7 @@ public class Task {
 
         if (gainWeight == fasting) {
             if (gainWeight) {
-                System.out.println("You are loosing weight");
+                System.out.println("You are losing weight");
             } else {
                 System.out.println("You are gaining weight");
             }

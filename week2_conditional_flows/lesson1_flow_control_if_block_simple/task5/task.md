@@ -1,16 +1,16 @@
 Nice job! I am happy that you are mastering your skills rapidly.
 
-Apart from your solution, I bet you struggle sometimes as code seems like spaghetti.
+Apart from your solution, I bet you sometimes struggle as code seems like spaghetti.
 
-In order to comprehend better, we should learn how to visualize the algorithms (sequence of instructions).
+To comprehend better, we should learn how to visualize the algorithms (sequence of instructions).
 
-Please welcome **Flowchart**. I reckon you met somewhere this way of presenting of algorithms.
+Please welcome **Flowchart**. You met somewhere this way of presenting algorithms.
 
 It has the following view:
 *** 
 Age calculator:
 
-Code: 
+Code:
 
 ```
 Scanner sc = new Scanner(System.in);
@@ -33,10 +33,10 @@ Components in Flowchart
 
 We are going to review more examples...
 
-Decision whether a market sells alcohol: [task3](course://week2_conditional_flows/lesson1_flow_control_if_block_simple/task3/src/Main.java)
+The decision whether a market sells alcohol: [task3](course://week2_conditional_flows/lesson1_flow_control_if_block_simple/task3/src/Main.java)
 
 
-Code with connected `if` blocks: 
+Code with connected `if` blocks:
 
 ```
 int age;
@@ -58,7 +58,7 @@ Flowchart:
 
 Example with `if` blocks (not connected)
 
-Code: 
+Code:
 
 ```
 int age = 18;
@@ -73,7 +73,7 @@ if (time >= 22) {
 }
 ```
 
-FlowChart: 
+FlowChart:
 
 ![img_4.png](img_4.png)
 ***
@@ -109,6 +109,6 @@ if (hour > 8 && hour < 18) {
 *** 
 
 Be attentive and try to do visualization:
-* Go from **flowchart** to code and vise versa
+* Go from **flowchart** to code and vice versa
 * It will help a lot
 * You will have tasks where you should write code from **flowchart**

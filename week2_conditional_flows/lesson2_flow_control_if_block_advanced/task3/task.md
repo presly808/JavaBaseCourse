@@ -1,7 +1,7 @@
-In this task you should set proper values to variables in the begging in order to print.
+In this task, you should set proper values to variables in the begging to print.
 
-Use the visualizer to ensure you understands the logic. 
+Use the visualizer to ensure you understand the logic.
 
 Also, you can draw a **flowchart** for better learning
 
-Code, draw flowchart, visualize...Keep in mind those steps in each task
+Code, draw a flowchart, and visualize. Keep in mind those steps in each task

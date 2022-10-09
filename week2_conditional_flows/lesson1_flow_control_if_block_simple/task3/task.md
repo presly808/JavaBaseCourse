@@ -1,8 +1,8 @@
-Frankly saying I have showed you only a small part of `if` block.
+I have shown you only a tiny part of `if` blocks.
 
-There are more capabilities with that block: 
+There are more capabilities with that block:
 
-We can add `else` block that will be executed when expression gives `false`
+We can add `else` blocks that will be executed when the expression gives `false`
 
 Example:
 
@@ -17,9 +17,9 @@ if (hour > 8 && hour < 18) {
 }
 ```
 
-In other words, you have two blocks that are connected with each other.
+In other words, you have two blocks that are connected.
 
-It is not over with syntax. There is a `else if` blocks as well
+It is not over with syntax. There is an `else if` block as well.
 
 ```
 int hour = 12;
@@ -36,20 +36,20 @@ if (hour > 8 && hour < 18) {
 }
 ```
 
-* All blocks connected with each other, 
-* if we get true in the first block we don't check the next conditions
-* There is a strict order, from top to bottom
-* We may get into `else` block only if the previous ones give `false`  
+* All blocks connected,
+* if we get `true` in the first block, we don't check the next conditions
+* There is a strict order from top to bottom
+* We may get into `else` block only if the previous ones give `false`
 
-From moment on, we should be familiar with connected blocks and unconnected
+From the moment on, we should be familiar with connected blocks and unconnected.
 
-I know that you may be confused how to choose if when we need:
+I know that you may be confused about how to choose `if` when we need:
 * only single `if`
 * couple `if` but unconnected
   * they don't depend on each other
-  * we will check every condition for every block, even if we execute the first block 
+  * we will check every condition for every block, even if we execute the first block
 * `if-else` connected
 * or `if - else if -else`
 
 Your decision will come from a business logic (task description).
-We will see more examples to improve your code intuition
+We will see more examples to improve your code intuition.

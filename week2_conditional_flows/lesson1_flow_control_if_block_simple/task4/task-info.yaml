@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 166
-    length: 346
+    length: 350
     placeholder_text: /* implement logic with if blocks */
 - name: test/Tests.java
   visible: false
