@@ -33,7 +33,7 @@ public class Main {
       // Surprise, boxNum = 5, not 5.2
       // hence int / int = int
       int remainder = bottles % 5;
-      System.out.println("Rest=" + remainder);
+      System.out.println(" Rest=" + remainder);
       // it means that in the last box, we put one bottle
 
       // but int / double = double

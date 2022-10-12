@@ -1,0 +1,26 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 107
+    length: 4
+    placeholder_text: /* choose proper type */
+  - offset: 194
+    length: 7
+    placeholder_text: /* add proper type */
+  - offset: 300
+    length: 24
+    placeholder_text: /* this method should accept two numbers */
+  - offset: 419
+    length: 25
+    placeholder_text: /* print name to console */
+  - offset: 456
+    length: 76
+    placeholder_text: /* declare method with name "sum" that accepts 3 int numbers
+      and returns their sum */
+  - offset: 579
+    length: 14
+    placeholder_text: /* return "Ivan" */
+- name: test/Tests.java
+  visible: false

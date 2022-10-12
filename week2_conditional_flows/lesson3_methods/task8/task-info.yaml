@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 183
+    length: 2116
+    placeholder_text: /* write logic */
+- name: test/Tests.java
+  visible: false

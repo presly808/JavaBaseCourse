@@ -1,0 +1,11 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 916
+    length: 218
+    placeholder_text: /* declare method that may help simplify and shorten the code
+      */
+- name: test/Tests.java
+  visible: false

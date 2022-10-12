@@ -4,6 +4,7 @@
 /util/build/
 */task_remote_info.yaml
 /.gradle/
+*.zip
 build/
 /testing/lesson1/task1/build/
 /testing/lesson1/task2/build/
@@ -53,6 +54,7 @@ build/
 /week1_variables_operations/lesson3_data_type/task5/out/
 /week1_variables_operations/lesson3_data_type/task5/out/production/classes/
 /week1_variables_operations/lesson4_operations_over_numbers/task1/build/
+/week1_variables_operations/lesson4_operations_over_numbers/task1/out/
 /week1_variables_operations/lesson4_operations_over_numbers/task2/build/
 /week1_variables_operations/lesson4_operations_over_numbers/task2/out/
 /week1_variables_operations/lesson4_operations_over_numbers/task2/out/production/classes/

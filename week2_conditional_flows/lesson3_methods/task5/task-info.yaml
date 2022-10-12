@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 370
+    length: 246
+    placeholder_text: /* declare method "max" that return the biggest number */
+- name: test/Tests.java
+  visible: false

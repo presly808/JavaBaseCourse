@@ -1,0 +1,11 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 222
+    length: 20
+    placeholder_text: /* call the method 'multiply', that has been declared already
+      */
+- name: test/Tests.java
+  visible: false
