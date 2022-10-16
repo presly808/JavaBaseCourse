@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 246
     length: 102
-    placeholder_text: /* If no electircity -> println "No Electricity" and terminate
+    placeholder_text: /* If no electricity -> println "No Electricity" and terminate
       the app with "return" word */
   - offset: 358
     length: 102

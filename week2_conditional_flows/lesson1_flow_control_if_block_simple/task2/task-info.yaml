@@ -5,10 +5,10 @@ files:
   placeholders:
   - offset: 224
     length: 26
-    placeholder_text: /* check if fristNumber is less than secondNumber */
+    placeholder_text: /* check if firstNumber is less than secondNumber */
   - offset: 321
     length: 95
-    placeholder_text: /* Print 'FirstNumber is equel` if firstNumber equals to secondNumber
+    placeholder_text: /* Print 'FirstNumber is equal` if firstNumber equals to secondNumber
       */
 - name: test/output.txt
   visible: false

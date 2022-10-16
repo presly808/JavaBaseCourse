@@ -13,7 +13,7 @@ public class Task {
         int caloriesEatenPerDay = scanner.nextInt();
 
         boolean gainWeight = currentWeight < desiredWeight;
-        boolean fasting = caloriesBurnPerDay < caloriesEatenPerDay;
+        boolean fasting = caloriesBurnPerDay > caloriesEatenPerDay;
 
         int daysToTarget = 0;
 

@@ -19,7 +19,7 @@ public class Task {
                 }
             }
         } else {
-            System.out.println("You fell asleep");
+            System.out.println("You fall asleep");
         }
     }
 }

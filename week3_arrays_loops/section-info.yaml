@@ -1,5 +1,6 @@
 content:
 - lesson1_operation_on_arrays
-- lesson2_loops
-- lesson3_iterate_over_array
-- lesson4_degub_in_ide
+- lesson2_string_methods
+- lesson3_degub_in_ide
+- lesson4_utils
+- lesson5_loops_intro

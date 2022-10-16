@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 526
+    length: 66
+    placeholder_text: /* return false if month value is invalid */
+  - offset: 620
+    length: 19
+    placeholder_text: /* call method 'generateMonthDays' */
+  - offset: 650
+    length: 46
+    placeholder_text: /* return true if day is in month range, otherwise false */
+  - offset: 334
+    length: 121
+    placeholder_text: /* implement method "generateMonthDays" which return int array
+      with number of days in months */
+- name: test/Tests.java
+  visible: false
