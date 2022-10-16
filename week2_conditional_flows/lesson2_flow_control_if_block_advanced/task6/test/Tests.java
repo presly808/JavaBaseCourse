@@ -12,7 +12,7 @@ public class Tests extends OutputRedirectionParentTest {
     Task.main(new String[0]);
 
     String actual = baos.toString();
-    String expected = "Not enough power\n";
+    String expected = "Not enough power" + System.getProperty("line.separator");
 
     Assert.assertEquals(expected, actual);
   }
@@ -24,7 +24,7 @@ public class Tests extends OutputRedirectionParentTest {
     Task.main(new String[0]);
 
     String actual = baos.toString();
-    String expected = "No electricity\n";
+    String expected = "No electricity" + System.getProperty("line.separator");
 
     Assert.assertEquals(expected, actual);
   }
@@ -36,7 +36,7 @@ public class Tests extends OutputRedirectionParentTest {
     Task.main(new String[0]);
 
     String actual = baos.toString();
-    String expected = "We are going to boil watter with cattle\n";
+    String expected = "We are going to boil watter with cattle" + System.getProperty("line.separator");
 
     Assert.assertEquals(expected, actual);
   }

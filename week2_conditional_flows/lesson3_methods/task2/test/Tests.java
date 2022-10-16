@@ -31,12 +31,12 @@ public class Tests extends OutputRedirectionParentTest {
   @Test
   public void printHoy() {
     Task.printSomething();
-    Assert.assertEquals("Message\n", baos.toString());
+    Assert.assertEquals("Message" + System.getProperty("line.separator"), baos.toString());
   }
 
   @Test
   public void printName() {
     Task.printName("Hey");
-    Assert.assertEquals("Hey\n", baos.toString());
+    Assert.assertEquals("Hey" + System.getProperty("line.separator"), baos.toString());
   }
 }

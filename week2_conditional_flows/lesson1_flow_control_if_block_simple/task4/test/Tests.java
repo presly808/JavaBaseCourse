@@ -12,9 +12,9 @@ public class Tests extends OutputRedirectionParentTest {
 
         Task.main(new String[0]);
 
-        String actual = baos.toString();
+        String actual = baos.toString().trim();
 
-        Assert.assertEquals("Speed is incorrect\n", actual);
+        Assert.assertEquals("Speed is incorrect", actual);
     }
 
     @Test
@@ -24,9 +24,9 @@ public class Tests extends OutputRedirectionParentTest {
 
         Task.main(new String[0]);
 
-        String actual = baos.toString();
+        String actual = baos.toString().trim();
 
-        Assert.assertEquals("Best speed for driving in a city\n", actual);
+        Assert.assertEquals("Best speed for driving in a city", actual);
     }
 
     @Test
@@ -36,9 +36,9 @@ public class Tests extends OutputRedirectionParentTest {
 
         Task.main(new String[0]);
 
-        String actual = baos.toString();
+        String actual = baos.toString().trim();
 
-        Assert.assertEquals("You are dangerous!\n", actual);
+        Assert.assertEquals("You are dangerous!", actual);
     }
 
     @Test
@@ -48,8 +48,8 @@ public class Tests extends OutputRedirectionParentTest {
 
         Task.main(new String[0]);
 
-        String actual = baos.toString();
+        String actual = baos.toString().trim();
 
-        Assert.assertEquals("You are very close to getting a ticket\n", actual);
+        Assert.assertEquals("You are very close to getting a ticket", actual);
     }
 }

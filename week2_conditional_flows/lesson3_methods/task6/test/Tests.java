@@ -36,7 +36,7 @@ public class Tests extends OutputRedirectionParentTest {
 
     Task.main(new String[0]);
 
-    Assert.assertEquals("Your perfect weight in pounds is 152", baos.toString());
+    Assert.assertEquals("Your perfect weight in pounds is 126", baos.toString());
   }
 
   @Test
@@ -45,6 +45,6 @@ public class Tests extends OutputRedirectionParentTest {
 
     Task.main(new String[0]);
 
-    Assert.assertEquals("Height can no be negative\n", baos.toString());
+    Assert.assertEquals("Height can no be negative" + System.getProperty("line.separator"), baos.toString());
   }
 }

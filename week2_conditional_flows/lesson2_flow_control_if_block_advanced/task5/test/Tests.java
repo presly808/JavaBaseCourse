@@ -55,7 +55,7 @@ public class Tests extends OutputRedirectionParentTest {
                     "Name %s, currentWeight %s, desiredWeight %s, caloriesBurnPerDay %s, caloriesEatenPerDay %s\n",
             name, currentWeight, desiredWeight, caloriesBurnPerDay, caloriesEatenPerDay);
 
-    expected =  expected + expectedMessage + "\n";
+    expected =  expected + expectedMessage + System.getProperty("line.separator");
 
     Assert.assertEquals(expected, actual);
   }

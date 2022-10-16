@@ -79,9 +79,9 @@ public class Tests extends OutputRedirectionParentTest {
 
     Task.main(new String[0]);
 
-    String actual = baos.toString();
+    String actual = baos.toString().trim();
 
-    Assert.assertEquals(expectedMessage, actual);
+    Assert.assertEquals(expectedMessage.trim(), actual);
   }
 
   public static void main(String[] args) {

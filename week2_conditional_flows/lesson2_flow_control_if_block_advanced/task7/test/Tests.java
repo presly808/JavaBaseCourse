@@ -49,7 +49,7 @@ public class Tests extends OutputRedirectionParentTest {
     Task.main(new String[0]);
 
     String actual = baos.toString();
-    Assert.assertEquals(expectedMessage + "\n", actual);
+    Assert.assertEquals(expectedMessage + System.getProperty("line.separator"), actual);
   }
 
 }

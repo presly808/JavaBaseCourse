@@ -29,7 +29,7 @@ public class Tests extends OutputRedirectionParentTest {
 
     String actual = baos.toString();
 
-    Assert.assertEquals("Your heart rate is in normal zone\nheartBeatsPerMinute = " + heartRate, actual);
+    Assert.assertEquals("Your heart rate is in normal zone" + System.getProperty("line.separator") +"heartBeatsPerMinute = " + heartRate, actual);
   }
 
   @Test

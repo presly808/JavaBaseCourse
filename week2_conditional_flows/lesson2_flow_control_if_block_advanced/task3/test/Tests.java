@@ -9,9 +9,9 @@ public class Tests extends OutputRedirectionParentTest {
     Task.main(new String[0]);
 
     String actual = baos.toString();
-    String expected = "Time to walk\n" +
-            "Alone\n" +
-            "To the cinema\n";
+    String expected = "Time to walk" + System.getProperty("line.separator") +
+            "Alone" + System.getProperty("line.separator") +
+            "To the cinema" + System.getProperty("line.separator");
 
     Assert.assertEquals(expected, actual);
   }

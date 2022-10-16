@@ -11,7 +11,7 @@ public class Tests extends OutputRedirectionParentTest {
 
     Task.main(new String[0]);
 
-    Assert.assertEquals("Max number is 90\n", baos.toString());
+    Assert.assertEquals("Max number is 90" + System.getProperty("line.separator"), baos.toString());
   }
 
   @Test
@@ -20,7 +20,7 @@ public class Tests extends OutputRedirectionParentTest {
 
     Task.main(new String[0]);
 
-    Assert.assertEquals("Max number is 7\n", baos.toString());
+    Assert.assertEquals("Max number is 7" + System.getProperty("line.separator"), baos.toString());
   }
 
   @Test
@@ -29,6 +29,6 @@ public class Tests extends OutputRedirectionParentTest {
 
     Task.main(new String[0]);
 
-    Assert.assertEquals("Max number is 10\n", baos.toString());
+    Assert.assertEquals("Max number is 10" + System.getProperty("line.separator"), baos.toString());
   }
 }

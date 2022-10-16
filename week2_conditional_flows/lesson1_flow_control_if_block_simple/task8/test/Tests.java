@@ -16,7 +16,7 @@ public class Tests extends OutputRedirectionParentTest {
 
     String actual = baos.toString();
 
-    Assert.assertEquals("Invalid input data\nheartBeatsPerMinute = " + heartRate, actual);
+    Assert.assertEquals("Invalid input data" + System.getProperty("line.separator") + "heartBeatsPerMinute = " + heartRate, actual);
   }
 
   @Test
@@ -29,7 +29,7 @@ public class Tests extends OutputRedirectionParentTest {
 
     String actual = baos.toString();
 
-    Assert.assertEquals("Are you sleeping? You heart rate is low\nheartBeatsPerMinute = " + heartRate, actual);
+    Assert.assertEquals("Are you sleeping? You heart rate is low" + System.getProperty("line.separator") + "heartBeatsPerMinute = " + heartRate, actual);
   }
 
   @Test
@@ -42,7 +42,8 @@ public class Tests extends OutputRedirectionParentTest {
 
     String actual = baos.toString();
 
-    Assert.assertEquals("Your heart rate is in normal zone\nheartBeatsPerMinute = " + heartRate, actual);
+    Assert.assertEquals("Your heart rate is in normal zone" + System.getProperty("line.separator")
+            + "heartBeatsPerMinute = " + heartRate, actual);
   }
 
   @Test
@@ -54,6 +55,7 @@ public class Tests extends OutputRedirectionParentTest {
 
     String actual = baos.toString();
 
-    Assert.assertEquals("Be accurate while doing exercises\nheartBeatsPerMinute = " + heartRate, actual);
+    Assert.assertEquals("Be accurate while doing exercises" + System.getProperty("line.separator")
+            + "heartBeatsPerMinute = " + heartRate, actual);
   }
 }
