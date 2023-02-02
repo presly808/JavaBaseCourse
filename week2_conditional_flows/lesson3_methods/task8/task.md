@@ -40,10 +40,10 @@ Here are some test data:
 
 ```
 year,   currentDay,   currentMonth,   flightDay,  flightMonth,  destination   Message
-2022,   20,           3,              25,         3,            "London",     "Your ticket to London on 25/3 costs 500\n"
-2022,   20,           3,              16,         4,            "Kyiv",       "Your ticket to Kyiv on 16/4 costs 240\n",
-2022,   20,           3,              16,         33,           "Barcelona",  "Flight Date invalid\n",
-2022,   20,           3,              30,         4,            "Kyiv",       "Your ticket to Kyiv on 30/4 costs 225\n",
+2022,   20,           3,              25,         3,            "London",     "Your ticket to London on 25/3 costs 500"
+2022,   20,           3,              16,         4,            "Kyiv",       "Your ticket to Kyiv on 16/4 costs 240",
+2022,   20,           3,              16,         33,           "Barcelona",  "Flight Date invalid",
+2022,   20,           3,              30,         4,            "Kyiv",       "Your ticket to Kyiv on 30/4 costs 225",
 ```
 
 Last hints:

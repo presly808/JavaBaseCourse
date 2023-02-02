@@ -1,7 +1,5 @@
-Implement methods that calculate salary per week. We should get hours per day during a week. And sum them then multiply by `hourRate`
+The next task is to implement password checker. 
 
-Validation: 
+Implement method that accepts guess and actual password. Then checks its length, and compare its content.
 
-* `hoursPerDay` has to have size 7.
-* `hourRate` can not be negative.
-* return -1 if we don't meet condition above
+In other words, we compare char arrays. Password should contain 8 symbols, otherwise we should return false.

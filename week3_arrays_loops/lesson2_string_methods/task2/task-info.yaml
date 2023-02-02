@@ -1,0 +1,23 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 220
+    length: 7
+    placeholder_text: /* type valid type */
+  - offset: 303
+    length: 7
+    placeholder_text: /* type valid type */
+  - offset: 326
+    length: 20
+    placeholder_text: /* check if name2 contains "Lu" symbols */
+  - offset: 239
+    length: 19
+    placeholder_text: /* check if name1 and name2 are equal */
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false

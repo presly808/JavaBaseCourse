@@ -1,0 +1,20 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 123
+    length: 2
+    placeholder_text: /* put proper value */
+  - offset: 140
+    length: 6
+    placeholder_text: /* add condition */
+  - offset: 195
+    length: 7
+    placeholder_text: /* change 'i' respectively */
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false

@@ -2,5 +2,5 @@ content:
 - lesson1_operation_on_arrays
 - lesson2_string_methods
 - lesson3_degub_in_ide
-- lesson4_utils
+- lesson4_arrayutils
 - lesson5_loops_intro

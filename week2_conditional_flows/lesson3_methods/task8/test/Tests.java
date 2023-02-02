@@ -19,36 +19,36 @@ public class Tests extends OutputRedirectionParentTest {
     return Arrays.asList(new Object[][] {
 
             // 25 % discount Saturday + 40 days
-            {2022, 20, 3, 30, 4, "Kyiv", "Your ticket to Kyiv on 30/4 costs 225\n"},
+            {2022, 20, 3, 30, 4, "Kyiv", "Your ticket to Kyiv on 30/4 costs 225"},
             // No discount Friday
-            {2022, 20, 3, 25, 3, "Kyiv", "Your ticket to Kyiv on 25/3 costs 300\n"},
+            {2022, 20, 3, 25, 3, "Kyiv", "Your ticket to Kyiv on 25/3 costs 300"},
             // Only 10% Saturday
-            {2022, 20, 3, 26, 3, "Kyiv", "Your ticket to Kyiv on 26/3 costs 270\n"},
+            {2022, 20, 3, 26, 3, "Kyiv", "Your ticket to Kyiv on 26/3 costs 270"},
             // 20 % discount Saturday + 20 days
-            {2022, 20, 3, 16, 4, "Kyiv", "Your ticket to Kyiv on 16/4 costs 240\n"},
+            {2022, 20, 3, 16, 4, "Kyiv", "Your ticket to Kyiv on 16/4 costs 240"},
 
             // 25 % discount Saturday + 40 days
-            {2022, 20, 3, 30, 4, "London", "Your ticket to London on 30/4 costs 375\n"},
+            {2022, 20, 3, 30, 4, "London", "Your ticket to London on 30/4 costs 375"},
             // No discount Friday
-            {2022, 20, 3, 25, 3, "London", "Your ticket to London on 25/3 costs 500\n"},
+            {2022, 20, 3, 25, 3, "London", "Your ticket to London on 25/3 costs 500"},
             // Only 10% Saturday
-            {2022, 20, 3, 26, 3, "London", "Your ticket to London on 26/3 costs 450\n"},
+            {2022, 20, 3, 26, 3, "London", "Your ticket to London on 26/3 costs 450"},
             // 20 % discount Saturday + 20 days
-            {2022, 20, 3, 16, 4, "London", "Your ticket to London on 16/4 costs 400\n"},
+            {2022, 20, 3, 16, 4, "London", "Your ticket to London on 16/4 costs 400"},
 
             // 25 % discount Saturday + 40 days
-            {2022, 20, 3, 30, 4, "Barcelona", "Your ticket to Barcelona on 30/4 costs 322\n"},
+            {2022, 20, 3, 30, 4, "Barcelona", "Your ticket to Barcelona on 30/4 costs 322"},
             // No discount Friday
-            {2022, 20, 3, 25, 3, "Barcelona", "Your ticket to Barcelona on 25/3 costs 430\n"},
+            {2022, 20, 3, 25, 3, "Barcelona", "Your ticket to Barcelona on 25/3 costs 430"},
             // Only 10% Saturday
-            {2022, 20, 3, 26, 3, "Barcelona", "Your ticket to Barcelona on 26/3 costs 387\n"},
+            {2022, 20, 3, 26, 3, "Barcelona", "Your ticket to Barcelona on 26/3 costs 387"},
             // 20 % discount Saturday + 20 days
-            {2022, 20, 3, 16, 4, "Barcelona", "Your ticket to Barcelona on 16/4 costs 344\n"},
+            {2022, 20, 3, 16, 4, "Barcelona", "Your ticket to Barcelona on 16/4 costs 344"},
 
             // VALIDATION
-            {2022, 20, 3, 16, 4, "Praha", "Destination not supported\n"},
-            {2022, 20, 3, 16, 33, "Barcelona", "Flight Date invalid\n"},
-            {2022, 37, 3, 16, 33, "London", "Current Date invalid\n"},
+            {2022, 20, 3, 16, 4, "Praha", "Destination not supported"},
+            {2022, 20, 3, 16, 33, "Barcelona", "Flight Date invalid"},
+            {2022, 37, 3, 16, 33, "London", "Current Date invalid"},
     });
   }
 

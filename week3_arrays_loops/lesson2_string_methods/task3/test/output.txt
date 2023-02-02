@@ -1,0 +1,3 @@
+firstChar I, lastChar t
+charArrayWithoutLastChar = [I, n, p, u, t]
+new string = xyz

@@ -1,0 +1,26 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 267
+    length: 15
+    placeholder_text: /* get first char of input */
+  - offset: 441
+    length: 19
+    placeholder_text: /* convert input to char[] */
+  - offset: 553
+    length: 6
+    placeholder_text: /* type proper type */
+  - offset: 620
+    length: 22
+    placeholder_text: /* convert char[] to String */
+  - offset: 306
+    length: 32
+    placeholder_text: /* get the last char of input */
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false

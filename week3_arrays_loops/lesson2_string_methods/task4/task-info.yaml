@@ -1,0 +1,38 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 134
+    length: 6
+    placeholder_text: /* proper type */
+  - offset: 230
+    length: 6
+    placeholder_text: /* proper type */
+  - offset: 255
+    length: 20
+    placeholder_text: /* make input2 upper case */
+  - offset: 327
+    length: 7
+    placeholder_text: /* proper type */
+  - offset: 352
+    length: 23
+    placeholder_text: /* check if input1 startsWith "LO" */
+  - offset: 425
+    length: 7
+    placeholder_text: /* proper type */
+  - offset: 448
+    length: 21
+    placeholder_text: /* check if input1 endsWith "ER" */
+  - offset: 538
+    length: 24
+    placeholder_text: /* replace all "p" with "_" symbol */
+  - offset: 159
+    length: 20
+    placeholder_text: /* make input1 lower case */
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false

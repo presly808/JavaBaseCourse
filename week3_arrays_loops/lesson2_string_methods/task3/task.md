@@ -1,0 +1,1 @@
+Let's recall how to use `charAt` and converting `String` to `char[]` and vise versa.

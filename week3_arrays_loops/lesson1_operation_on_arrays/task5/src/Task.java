@@ -1,15 +1,21 @@
 public class Task {
-
-    public static int calculateSalary(int[] hoursPerDay, int hourRate) {
-
-        if (hoursPerDay.length != 7 || hourRate < 0) {
-            return -1;
+    public static boolean checkPassword(char[] guess, char[] password) {
+        if (guess.length != password.length) {
+            return false;
         }
 
-        return (hoursPerDay[0] + hoursPerDay[1] +
-                hoursPerDay[2] + hoursPerDay[3] +
-                hoursPerDay[4]+ hoursPerDay[5] +
-                hoursPerDay[6]) * hourRate;
-    }
+        if (guess.length != 8) {
+            return false;
+        }
 
+        return
+                guess[0] == password[0] &&
+                guess[1] == password[1] &&
+                guess[2] == password[2] &&
+                guess[3] == password[3] &&
+                guess[4] == password[4] &&
+                guess[5] == password[5] &&
+                guess[6] == password[6] &&
+                guess[7] == password[7];
+    }
 }

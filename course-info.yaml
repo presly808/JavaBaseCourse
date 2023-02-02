@@ -16,7 +16,7 @@ content:
 - week2_conditional_flows
 - week3_arrays_loops
 - week4_arrays_loops
-- week5_functions
-- week6_nested_arrays_matrix
-- week7_structures_oop_introduction
-- week8_basic_recursion
+- week5_nested_arrays_matrix
+- week6_structures_oop_introduction
+- week7_basic_recursion
+- section8_experiments

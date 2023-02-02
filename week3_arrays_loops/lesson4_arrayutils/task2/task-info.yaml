@@ -1,0 +1,10 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+- name: test/output.txt
+  visible: false
+- name: test/input.txt
+  visible: false
+- name: test/latest_output.txt
+  visible: false

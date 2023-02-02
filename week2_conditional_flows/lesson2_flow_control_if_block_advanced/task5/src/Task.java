@@ -31,11 +31,11 @@ public class Task {
             // TODO will be refactored in the next sections
             if (!gainWeight && fasting) {
                 int kgNeeded = currentWeight - desiredWeight;
-                double caloriesInKgPedDay = caloriesBurnPerDay * 0.00013;
+                double caloriesInKgPedDay = (caloriesBurnPerDay - caloriesEatenPerDay)  * 0.00013;
                 daysToTarget = (int) (kgNeeded / caloriesInKgPedDay);
             } else if (gainWeight && !fasting) {
                 int kgNeeded = desiredWeight - currentWeight;
-                double caloriesInKgPedDay = caloriesBurnPerDay * 0.00013;
+                double caloriesInKgPedDay = (caloriesEatenPerDay - caloriesBurnPerDay) * 0.00013;
                 daysToTarget = (int) (kgNeeded / caloriesInKgPedDay);
             }
             System.out.println("You will reach the target in " + daysToTarget + " days");
